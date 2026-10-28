@@ -1,5 +1,7 @@
 # ews — a small yes/no and multiple-choice judge for game scenes
 
+[中文](README.zh-TW.md) · [Model card](MODEL_CARD.md)
+
 **ews** (ElseWitness) answers short, concrete questions about a piece of text — usually a scene from a game:
 *did anyone eat something here? does this character know about that fact yet? is this scene over?*
 It returns a probability for yes/no questions and a pick for multiple-choice ones.
@@ -15,10 +17,10 @@ different URL and key.
 
 Keys are free and handed out by hand. Send a message saying what you want to try:
 
-- Email: `<EMAIL>`
+- Email: rogertenplusde@gmail.com
 - Discord: https://discord.gg/Hpxnzg5XZP
-- Instagram: `<IG>`
-- Threads: `<THREADS>`
+- Instagram: [@tenplus.1000](https://www.instagram.com/tenplus.1000)
+- Threads: [@tenplus.1000](https://www.threads.net/@tenplus.1000)
 
 Each key has a daily limit (500 requests by default; ask if you need more).
 
@@ -93,8 +95,3 @@ at a time when the card is free, so expect 0.5–2 s per call and occasional 429
 **Requests are logged** — the text, the questions and the answers — and may be used to improve the model.
 Don't send personal data or anything you can't share.
 
-## 中文
-
-ews 是穿越吧 Elsewhen 自己訓練的判官：給一段文字（通常是遊戲的一幕）跟幾個具體的是非題或選擇題，
-回機率或選項。格式跟 OpenRouter 的 decisions 一樣，換網址和 key 就能用。key 免費、人工發，
-用上面任一個管道私訊說想拿來做什麼。請求會被記錄、可能拿來改進模型，請不要送個資。

@@ -1,5 +1,7 @@
 # Model card: ews-0.6
 
+[中文](MODEL_CARD.zh-TW.md) · [README](README.md)
+
 ## What it is
 
 A small classifier-style judge fine-tuned to answer concrete yes/no (`noul`) and multiple-choice (`choice`)
