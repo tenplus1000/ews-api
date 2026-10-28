@@ -40,9 +40,15 @@ curl https://api.elsewhengame.com/v1/decisions \
 ```
 
 ```json
-{"id": "…", "model": "ews-0.6",
- "answers": {"ate": {"noul": 0.97}, "who": {"choice": "he"}}}
+{"id": "ews-a7d76c44c3834768", "model": "ews-0.6",
+ "answers": {
+   "ate": {"type": "noul", "noul": 0.9036, "confidence": 0.9036},
+   "who": {"type": "choice", "choice": "he", "probabilities": {"she": 0.1905, "he": 0.7005, "none": 0.109}}
+ },
+ "usage": {"elapsed_s": 0.2266}}
 ```
+
+(a real response, trimmed: `noul` is the probability of *yes*; `choice` is the pick and `probabilities` the full spread.)
 
 Python:
 
